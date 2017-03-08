@@ -1,0 +1,31 @@
+{
+	"is_train" : 0,
+	
+	"model" : "/media/jinghui/D854BA4A54BA2B60/Study/MyCode/MyCodeV0.2/model/model.npz",
+	
+	"data" : "/media/jinghui/D854BA4A54BA2B60/Study/MyCode/MyCodeV0.2/data",
+	
+	"layers" : 3,
+	
+	"nConv" : [3,5,10],
+	
+	"learnRate" : 0.015,
+	
+	"decayRate" : 0.05,
+	
+	"batchSize":  100,
+
+	"wembSize": 100,
+
+	"hiddenSize": 100,
+
+	"lembSize": 20,
+
+	"seed": 100,
+
+        "optimizer":"SGD",
+
+        "wordEmd":"/media/jinghui/D854BA4A54BA2B60/Study/MyCode/MyCodeV0.2/external/glove.6B.100d.txt",
+
+        "epoch":1000
+}

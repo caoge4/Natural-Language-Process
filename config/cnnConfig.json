@@ -1,0 +1,23 @@
+{
+	"is_train" : 0,
+	
+	"model" : "/media/jinghui/D854BA4A54BA2B60/Study/MyCode/MyCodeV0.2/model/model.npz",
+	
+	"data" : "/media/jinghui/D854BA4A54BA2B60/Study/MyCode/MyCodeV0.2/data",
+	
+	"wordPklPath" : "/media/jinghui/D854BA4A54BA2B60/Study/MyCode/MyCodeV0.2/external/word2vec.pkl",
+	
+	"layers" : 3,
+	
+	"nConv" : [3,5,10],
+	
+	"learnRate" : 0.015,
+	
+	"decayRate" : 0.01,
+	
+	"batchSize":  100,
+
+	"embSize": 100,
+
+	"seed": 100
+}
